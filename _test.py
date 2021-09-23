@@ -12,4 +12,3 @@ def test_bulk_pricing_edge_cases():
     assert math.isclose(get_cost(50), 36)
     assert math.isclose(get_cost(999), 699.3)
     assert math.isclose(get_cost(1000), 670)
-
